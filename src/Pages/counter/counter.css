@@ -1,0 +1,75 @@
+.cointainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+  background: linear-gradient(135deg, #f0f4f8, #cfd9df);
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.counter-box {
+  background: white;
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.h1-count {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.btn-group {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.btn.inc {
+  background-color: #28a745;
+}
+
+.btn.inc:hover {
+  background-color: #218838;
+}
+
+.btn.dec {
+  background-color: #dc3545;
+}
+
+.btn.dec:hover {
+  background-color: #c82333;
+}
+
+.btn.reset {
+  background-color: #007bff;
+}
+
+.btn.reset:hover {
+  background-color: #0069d9;
+}
