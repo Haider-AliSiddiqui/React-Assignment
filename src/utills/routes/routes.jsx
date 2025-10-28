@@ -2,17 +2,15 @@
 import {Routes, Route} from "react-router-dom"
 import Counter from '../../Pages/counter/counter';
 import OurMenu from "../../Pages/ourMenu/ourMenu";
-import ColorChanger from "../../Pages/ColorChanger/ColorChanger";
+import ColorChanger from "../../Pages/colorChanger/colorChanger";
 
 const AppRoutes = () => {
     return(
-        
             <Routes> 
                 <Route path='/counter' element={<Counter/>}/>
                 <Route path='/ourMenu' element={<OurMenu/>}/>
                 <Route path='/colorChanger' element={<ColorChanger/>}/>
-            </Routes>
-        
+            </Routes> 
     )
 }
 export default AppRoutes;
