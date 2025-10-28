@@ -1,6 +1,7 @@
 // All routes are defined here
-
 import {Routes, Route} from "react-router-dom"
+
+import {Routes, Route} from "react-router-dom";
 import Counter from '../../Pages/counter/counter';
 import OurMenu from "../../Pages/ourMenu/ourMenu";
 import ColorChanger from "../../Pages/ColorChanger/ColorChanger";
