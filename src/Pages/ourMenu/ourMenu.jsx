@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./ourMenu.css";
+import "./ourmenu.css";
 
-
-const OurMenu = () => {
+const ourmenu = () => {
   const [menu, setMenu] = useState([]);
   const [filteredMenu, setFilteredMenu] = useState([]); 
   const [selectedMeal, setSelectedMeal] = useState("All");
@@ -22,7 +21,6 @@ const OurMenu = () => {
     };
     apicall();
   }, []);
-  console.log("Menu Data:", menu);
 
    const handleFilter = (mealType) => {
     setSelectedMeal(mealType);
@@ -77,6 +75,6 @@ const OurMenu = () => {
   );
 };
 
-export default OurMenu;
+export default ourmenu;
 
 

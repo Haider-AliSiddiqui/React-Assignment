@@ -85,3 +85,9 @@
   font-size: 0.9rem;
   line-height: 1.5;
 }
+
+@media (max-width: 600px ) {
+  .filter-btn {
+    padding: 3px 4px;
+  }
+}

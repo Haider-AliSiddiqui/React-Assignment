@@ -73,3 +73,25 @@
 .btn.reset:hover {
   background-color: #0069d9;
 }
+
+.btn.reset:disabled {
+  background-color: #80bdff;
+}
+.btn.dec:disabled {
+  background-color: #F77A7D;
+}
+
+@media (max-width: 600px) {
+  .counter-box {
+    padding: 30px 40px;
+  }
+
+  .h1-count {
+    font-size: 2rem;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
