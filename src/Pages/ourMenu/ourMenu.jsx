@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./ourmenu.css";
 
-const ourmenu = () => {
+const Ourmenu = () => {
   const [menu, setMenu] = useState([]);
   const [filteredMenu, setFilteredMenu] = useState([]); 
   const [selectedMeal, setSelectedMeal] = useState("All");
@@ -75,6 +75,6 @@ const ourmenu = () => {
   );
 };
 
-export default ourmenu;
+export default Ourmenu;
 
 
