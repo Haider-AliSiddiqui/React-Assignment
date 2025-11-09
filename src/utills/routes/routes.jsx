@@ -1,7 +1,7 @@
 // All routes are defined here
 import { Routes, Route } from "react-router-dom";
 import Counter from '../../Pages/counter/Counter';
-import OurMenu from "../../Pages/ourmenu/OurMenu";
+import OurMenu from "../../Pages/OurMenu/OurMenu";
 import ColorChanger from "../../Pages/colorChanger/ColorChanger";
 
 const AppRoutes = () => {
