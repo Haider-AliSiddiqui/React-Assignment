@@ -1,7 +1,7 @@
 // Counter Page
 import React, { useState } from "react";
 import Header from "../../components/header/header";
-import "./counter.css"; 
+import "./Counter.css"; 
 
 const Counter = () => {
   const [count, setCount] = useState(0);
