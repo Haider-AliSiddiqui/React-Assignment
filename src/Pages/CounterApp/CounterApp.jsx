@@ -1,9 +1,9 @@
 // Counter Page
 import React, { useState } from "react";
 import Header from "../../components/header/header";
-import "./Counter.css"; 
+import "./CounterApp.css"; 
 
-const Counter = () => {
+const CounterApp = () => {
   const [count, setCount] = useState(0);
 
   const countstyle = () => {
@@ -41,10 +41,10 @@ const Counter = () => {
           >
             Reset
           </button>
-        </div>
-      </div>
-    </div>
+        </div>  
+      </div> 
+    </div>  
   );
 };
 
-export default Counter;
+export default CounterApp;
